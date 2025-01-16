@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e" pages="2">
+    <diagram name="Page-1" id="qX0xYNSGzSGNAZovde60">
+        <mxGraphModel dx="1035" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="i6M5yRnHK5PBo7iacOjJ-1" value="A box in Background Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6M5yRnHK5PBo7iacOjJ-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Test DrawIO Document&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;This document has two pages, the first page has two layers.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;This box has some funky styling.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=default;glass=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;spacing=7;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="360" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="tNLKj0_ZSK34AbsjRjWR-1" value="The contents of the second layer, is inside this perimeter." style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=none;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="210" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="tNLKj0_ZSK34AbsjRjWR-2" value="AWS ECS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="tNLKj0_ZSK34AbsjRjWR-3" value="Azure App Services" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="160" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="tNLKj0_ZSK34AbsjRjWR-4" value="UML Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="280" y="440" width="40" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="tNLKj0_ZSK34AbsjRjWR-5" value="Fancy Arrow" style="html=1;shadow=0;dashed=0;align=right;verticalAlign=top;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;textDirection=vertical-rl;labelPosition=left;verticalLabelPosition=middle;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="360" y="440" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6M5yRnHK5PBo7iacOjJ-3" value="Layer 1" parent="0"/>
+                <mxCell id="i6M5yRnHK5PBo7iacOjJ-4" value="A Cylinder in Layer 1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="i6M5yRnHK5PBo7iacOjJ-3" vertex="1">
+                    <mxGeometry x="280" y="240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="i6M5yRnHK5PBo7iacOjJ-5" value="An arrow&lt;div&gt;between layers&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#CC0000;labelBackgroundColor=none;" parent="i6M5yRnHK5PBo7iacOjJ-3" source="i6M5yRnHK5PBo7iacOjJ-1" target="i6M5yRnHK5PBo7iacOjJ-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="XivfTrk27lsxFI-o_f_o" name="Page-2">
+        <mxGraphModel dx="1035" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Rm8em6GGTrSpDwOpSqTg-1" value="You&lt;div&gt;found&lt;/div&gt;&lt;div&gt;the&lt;/div&gt;&lt;div&gt;second&lt;/div&gt;&lt;div&gt;page&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=27;fontFamily=Courier New;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="200" height="200" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
