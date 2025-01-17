@@ -1,5 +1,12 @@
 # Complex Markdown
 
+<details>
+  <summary>Collapsible 🎭</summary>
+  
+  → Easy  
+  → And simple
+</details>
+
 ## Math
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display

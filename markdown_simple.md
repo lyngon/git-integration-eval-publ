@@ -1,149 +1,199 @@
-# Basic Markdown
+# Basic Markdown (GitHub compatible)
 
-Paragraphs are separated by a blank line.
+## Paragraph
 
-2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
-look like:
+By writing regular text you are basically writing a paragraph.
 
-- this one
-- that one
-- the other one
+This is a paragraph.
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+## Headings
 
-> Block quotes are
-> written like so.
+There are 6 heading variants. The number of "#" symbols, followed by text, indicates the importance of the heading.
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+## Emphasis
+
+Modifying text is so neat and easy. You can make your text bold, italic and strikethrough.
+
+Using two asterisks **this text is bold**.  
+Two underscores **work as well**.  
+Let's make it _italic now_.  
+You guessed it, _one underscore is also enough_.  
+Can we combine **_both of that_?** Absolutely.  
+What if I want to ~~strikethrough~~?
+
+## Blockquote
+
+Want to emphasise importance of the text? Say no more.
+
+> This is a blockquote.
+> Want to write on a new line with space between?
 >
-> They can span multiple paragraphs,
-> if you like.
+> > And nested? No problem at all.
+> >
+> > > PS. you can **style** your text _as you want_. :
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+## Images
 
-## An h2 header
+The best way is to simply drag & drop image from your computer directly. You can also create reference to image and assign it that way.  
+Here is the syntax.
 
-Here's a numbered list:
+![text if the image fails to load](image.png "Text displayed on hover")
 
-1.  first item
-2.  second item
-3.  third item
+[logo]: image.png "Hover me"
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+![error text][logo]
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+## Links
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+Similar to images, links can also be inserted directly or by creating a reference. You can create both inline and block links.
+
+[docs]: https://github.com/adam-p/markdown-here
+
+Find some great docs [here][docs]
+
+Here's a link to [a public website](http://handshakes.ai), to a [local
+doc](html-simple.html), and to a [section heading in the current
+doc](#Paragraph).
+
+## Code
+
+You can cerate both inline and full block code snippets. You can also define programming language you were using in your snippet. All by using backticks.
+
+I created `.env` file at the root.
+Backticks inside backticks? `` `No problem.` ``
 
 ```
-define foobar() {
-    print "Welcome to flavor country!";
+{
+  learning: "Markdown",
+  showing: "block code snippet"
 }
 ```
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-```python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
+```js
+const x = "Block code snippet in JS";
+console.log(x);
 ```
 
-### An h3 header
+## Lists
 
-Now a nested list:
+As you can do in HTML, Markdown allows creating of both ordered and unordered lists.
 
-1.  First, get these ingredients:
+### Ordered List
 
-    - carrots
-    - celery
-    - lentils
+1. HTML
+2. CSS
+3. Javascript
+4. React
+5. I'm Frontend Dev now 👨🏼‍🎨
 
-2.  Boil some water.
+### Unordered List
 
-3.  Dump everything in the pot and follow
-    this algorithm:
+- Node.js
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+* Express
 
-    Do not bump wooden spoon or it will fall.
+- Nest.js
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+* Learning Backend ⌛️
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+### Mixed List
 
-[^1]: Footnote text goes here.
+You can also mix both of the lists and create sublists.  
+**PS.** Try not to create lists deeper than two levels. It is the best practice.
 
-Tables can look like this:
+1. Learn Basics
+   1. HTML
+   2. CSS
+   3. Javascript
+2. Learn One Framework
+   - React
+     - Router
+     - Redux
+   * Vue
+   - Svelte
 
-size material color
+## Table
+
+Great way to display well-arranged data. Use "|" symbol to separate columns and ":" symbol to align row content.
+
+| Left Align (default) | Center Align | Right Align |
+| :------------------- | :----------: | ----------: |
+| React.js             |   Node.js    |       MySQL |
+| Next.js              |   Express    |     MongoDB |
+| Vue.js               |   Nest.js    |       Redis |
+
+## Task List
+
+Keeping track of the tasks that are done, and those that need to be done.
+
+- [x] Learn Markdown
+- [ ] Learn Frontend Development
+- [ ] Learn Full Stack Development
+
+## Footnote
+
+Want to describe something at the end of the file? Use footnote!
+
+#### I am working on a new project. [^1]
+
+[^1]: Stack is: React, Typescript, Tailwind CSS
+
+Project is about music & movies. [^2]
+
+##### Hope you will like it. [^see]
+
+[^see]: Loading... ⌛️
+
+## Jump to section
+
+You can jump straight to sections of the file from wherever you are.
+
+[Jump back to the "Table" section](#Table)
+
+## Horizontal Line
+
+You can use asterisks, hyphens or underlines (\*, -, \_) to create horizontal line.  
+The only rule is that you must include at least three chars of the symbol.
+
+First Horizontal Line
 
 ---
 
-9 leather brown
-10 hemp canvas natural
-11 glass transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+Second One
 
 ---
 
-keyword text
+Third
 
 ---
 
-red Sunsets, apples, and
-other red or reddish
-things.
+## HTML
 
-green Leaves, grass, frogs
-and other things it's
-not easy being.
+You can also use raw HTML in your Markdown file. Most of the times that will work well, but sometimes you can experience some differences that you are not used to when working with standard HTML. Using CSS will not work.
 
----
+<h1>This is HTML</h1>
+<p>Paragraph...</p>
 
-A horizontal rule follows.
+<hr />
 
----
+<img src="image.png" width="200">
 
-Here's a definition list:
+<br />
+<br />
 
-apples
-: Good for making applesauce.
-oranges
-: Citrus!
-tomatoes
-: There's no "e" in tomatoe.
+<p>Quick hack for <strong><em>centering image</em></strong>?</p>
+<p align="center"><img src="image.png" width="200" /></p>
 
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-| Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](image_jpg.jpg "An exemplary image")
+[^2]: Footnote text goes here.
