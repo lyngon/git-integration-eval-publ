@@ -49,9 +49,9 @@ Want to emphasise importance of the text? Say no more.
 The best way is to simply drag & drop image from your computer directly. You can also create reference to image and assign it that way.  
 Here is the syntax.
 
-![text if the image fails to load](image.png "Text displayed on hover")
+![text if the image fails to load](image_png.png "Text displayed on hover")
 
-[logo]: image.png "Hover me"
+[logo]: image_png.png "Hover me"
 
 ![error text][logo]
 
