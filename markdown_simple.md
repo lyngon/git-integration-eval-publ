@@ -188,12 +188,12 @@ You can also use raw HTML in your Markdown file. Most of the times that will wor
 
 <hr />
 
-<img src="image.png" width="200">
+<img src="image_png.png" width="200">
 
 <br />
 <br />
 
 <p>Quick hack for <strong><em>centering image</em></strong>?</p>
-<p align="center"><img src="image.png" width="200" /></p>
+<p align="center"><img src="image_png.png" width="200" /></p>
 
 [^2]: Footnote text goes here.
